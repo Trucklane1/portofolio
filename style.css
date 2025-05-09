@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-image: linear-gradient(rgb(165, 178, 210), rgb(159, 229, 218));
+
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+   
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  .project {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    margin-top: 2rem;
+  }
+ 
+.hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
